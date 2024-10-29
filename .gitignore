@@ -1,0 +1,6 @@
+# .gitignore - Файл для исключения файлов из индекса Git
+
+# SQLite database
+data/*.db
+__pycache__/
+*.pyc
