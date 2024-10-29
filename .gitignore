@@ -1,0 +1,15 @@
+# .gitignore - Файл для исключения файлов из индекса Git
+
+# Общие исключения для Python
+__pycache__/
+*.pyc
+
+# Файлы конфигурации PostgreSQL (если есть)
+*.sql
+*.pg_dump
+*.dump
+*.backup
+*.log
+data/*.db
+__pycache__/
+*.pyc
